@@ -1,0 +1,11 @@
+syntax = "proto3";
+package myorg.mything.v1;
+
+message Helo {
+    string whodis  = 1;
+}
+
+message Cute {
+    bytes   picture = 1;
+}
+
